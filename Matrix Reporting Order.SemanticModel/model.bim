@@ -1,0 +1,3769 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"dim_Natural_Account\",\"dim_Report_Hierarchy\",\"dim_reporting_bridge\",\"fact_GL\",\"dim_Report_Hierarchy (2)\",\"dim_Report_Hierarchy2\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.138.1452.0 (24.11)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-NZ",
+    "cultures": [
+      {
+        "name": "en-NZ",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "dim_natural_account": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_Natural_Account"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim natural account": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dim_Natural_Account": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "account": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "dim natural explanation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "dim natural version": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "dim natural interpretation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "dim natural justification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "dim natural reason": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "dim natural excuse": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "explanation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "version": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "interpretation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "justification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  }
+                ]
+              },
+              "dim_natural_account.account_description": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_Natural_Account",
+                    "ConceptualProperty": "Account_Description"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "account description": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Account_Description": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "description": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "account appearance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "account descriptor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "account explanation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "account specification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "appearance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "descriptor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "explanation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "specification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "account account": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "account overview": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "dim_natural_account.natural_account": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_Natural_Account",
+                    "ConceptualProperty": "Natural_Account"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "natural account": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Natural_Account": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "account": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "natural explanation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "natural version": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "natural interpretation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "natural justification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "explanation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "version": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "interpretation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "justification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "natural reason": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "natural excuse": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "dim_natural_account.natural_account_key": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_Natural_Account",
+                    "ConceptualProperty": "Natural_Account_Key"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "natural account key": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Natural_Account_Key": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "account key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "natural account solution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "natural account explanation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "natural account basis": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "natural account recipe": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "natural account interpretation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "natural account resolution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "main": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "basic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "fundamental": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "central": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "dim_report_hierarchy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_Report_Hierarchy"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim report hierarchy": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dim_Report_Hierarchy": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "report hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "dim information hierarchy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "dim commentary hierarchy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "dim description hierarchy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "dim presentation hierarchy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "dim statement hierarchy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "information hierarchy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "commentary hierarchy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "description hierarchy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "presentation hierarchy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "statement hierarchy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ]
+              },
+              "dim_report_hierarchy.fin_report_level_1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_Report_Hierarchy",
+                    "ConceptualProperty": "Fin_Report_Level1"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fin report level 1": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Fin_Report_Level1": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "level 1": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "report level 1": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "fin information level 1": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fin commentary level 1": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fin description level 1": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fin presentation level 1": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fin statement level 1": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fin report quantity 1": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fin report threshold 1": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "information level 1": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "commentary level 1": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "description level 1": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "Ind Cashflow 1": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_report_hierarchy.fin_report_level_2": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_Report_Hierarchy",
+                    "ConceptualProperty": "Fin_Report_Level2"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fin report level 2": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Fin_Report_Level2": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "level 2": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "report level 2": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "fin information level 2": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fin commentary level 2": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fin description level 2": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fin presentation level 2": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fin statement level 2": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fin report quantity 2": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fin report threshold 2": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "information level 2": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "commentary level 2": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "description level 2": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  }
+                ]
+              },
+              "dim_report_hierarchy.fin_report_level_3": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_Report_Hierarchy",
+                    "ConceptualProperty": "Fin_Report_Level3"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fin report level 3": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Fin_Report_Level3": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "level 3": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "report level 3": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "fin information level 3": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fin commentary level 3": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fin description level 3": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fin presentation level 3": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fin statement level 3": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fin report quantity 3": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "fin report threshold 3": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.617
+                    }
+                  },
+                  {
+                    "information level 3": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "commentary level 3": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "description level 3": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  }
+                ]
+              },
+              "dim_report_hierarchy.reporting_hierarchy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_Report_Hierarchy",
+                    "ConceptualProperty": "Reporting_Hierarchy"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "reporting hierarchy": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Reporting_Hierarchy": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "reporting ladder": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "reporting grading": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "reporting order": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "reporting pyramid": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "ladder": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "grading": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "order": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "pyramid": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "dim_report_hierarchy.reporting_hierarchy_key": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_Report_Hierarchy",
+                    "ConceptualProperty": "Reporting_Hierarchy_Key"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "reporting hierarchy key": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Reporting_Hierarchy_Key": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "hierarchy key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "reporting hierarchy solution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "reporting hierarchy explanation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "reporting hierarchy basis": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "reporting hierarchy recipe": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "reporting hierarchy interpretation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "reporting hierarchy resolution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "main": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "basic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "fundamental": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "central": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "dim_report_hierarchy.sort_position": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_Report_Hierarchy",
+                    "ConceptualProperty": "Sort_Position"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sort position": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Sort_Position": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "position": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "sort location": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "sort situation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "location": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "situation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "sort place": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "sort site": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "sort spot": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "sort point": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "sort station": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "place": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "dim_reporting_bridge": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_reporting_bridge"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim reporting bridge": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dim_reporting_bridge": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "bridge": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "reporting bridge": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "dim reporting connection": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "dim reporting conduit": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "dim reporting association": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "reporting connection": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "reporting conduit": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "reporting association": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "dim reporting bond": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "dim reporting tie": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "dim reporting link": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "dim reporting channel": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  }
+                ]
+              },
+              "dim_reporting_bridge.natural_account_key": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_reporting_bridge",
+                    "ConceptualProperty": "natural_account_key"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "natural account key": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "natural_account_key": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "account key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "natural account solution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "natural account explanation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "natural account basis": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "natural account recipe": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "natural account interpretation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "natural account resolution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "main": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "basic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "fundamental": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "central": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "dim_reporting_bridge.reporting_hierarchy_key": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_reporting_bridge",
+                    "ConceptualProperty": "Reporting_Hierarchy_Key"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "reporting hierarchy key": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Reporting_Hierarchy_Key": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "hierarchy key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "reporting hierarchy solution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "reporting hierarchy explanation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "reporting hierarchy basis": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "reporting hierarchy recipe": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "reporting hierarchy interpretation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "reporting hierarchy resolution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "main": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "basic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "fundamental": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "central": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "fact_GL": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_GL"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fact GL": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fact_GL": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "GL": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "fact_GL.GL_dollar_amount": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_GL",
+                    "ConceptualProperty": "GL_Dollar_Amount"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "GL dollar amount": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "GL_Dollar_Amount": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "dollar amount": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "gl dollar quantity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "gl dollar volume": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "gl dollar expanse": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "gl dollar extent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "dollar quantity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "dollar volume": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "dollar expanse": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "dollar extent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "gl dollar sum": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "gl dollar total": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  }
+                ]
+              },
+              "fact_GL.GL_transaction_count": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_GL",
+                    "ConceptualProperty": "GL_Transaction_Count"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "GL transaction count": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "GL_Transaction_Count": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "transaction count": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "gl transaction amount": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "transaction amount": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "fact_GL.fact_key": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_GL",
+                    "ConceptualProperty": "Fact_Key"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fact key": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Fact_Key": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "main": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "basic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "fundamental": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "central": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "major": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "keynote": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "essential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "fact solution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "fact explanation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "fact basis": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  }
+                ]
+              },
+              "fact_GL.natural_account_key": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_GL",
+                    "ConceptualProperty": "Natural_Account_Key"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "natural account key": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Natural_Account_Key": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "account key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "natural account solution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "natural account explanation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "natural account basis": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "natural account recipe": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "natural account interpretation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "natural account resolution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "main": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "basic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "fundamental": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "central": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "fact_GL.transaction_date_key": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_GL",
+                    "ConceptualProperty": "Transaction_Date_Key"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "transaction date key": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Transaction_Date_Key": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "date key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "transaction moment key": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "moment key": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "transaction period key": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "period key": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "transaction date solution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "transaction date explanation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "transaction date basis": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "transaction date recipe": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "transaction date interpretation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "transaction date resolution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "dim_natural_account_has_account_description": {
+                "Binding": {
+                  "ConceptualEntity": "dim_Natural_Account"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_natural_account.account_description"
+                      },
+                      "Subject": {
+                        "Role": "dim_natural_account"
+                      }
+                    },
+                    "ID": "dim_natural_accounts_have_account_descriptions",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_natural_account": {
+                    "Target": {
+                      "Entity": "dim_natural_account"
+                    }
+                  },
+                  "dim_natural_account.account_description": {
+                    "Target": {
+                      "Entity": "dim_natural_account.account_description"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_natural_account_has_natural_account": {
+                "Binding": {
+                  "ConceptualEntity": "dim_Natural_Account"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_natural_account.natural_account"
+                      },
+                      "Subject": {
+                        "Role": "dim_natural_account"
+                      }
+                    },
+                    "ID": "dim_natural_accounts_have_natural_accounts",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_natural_account": {
+                    "Target": {
+                      "Entity": "dim_natural_account"
+                    }
+                  },
+                  "dim_natural_account.natural_account": {
+                    "Target": {
+                      "Entity": "dim_natural_account.natural_account"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_natural_account_has_natural_account_key": {
+                "Binding": {
+                  "ConceptualEntity": "dim_Natural_Account"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_natural_account.natural_account_key"
+                      },
+                      "Subject": {
+                        "Role": "dim_natural_account"
+                      }
+                    },
+                    "ID": "dim_natural_accounts_have_natural_account_keys",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_natural_account": {
+                    "Target": {
+                      "Entity": "dim_natural_account"
+                    }
+                  },
+                  "dim_natural_account.natural_account_key": {
+                    "Target": {
+                      "Entity": "dim_natural_account.natural_account_key"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_report_hierarchy_has_fin_report_level_1": {
+                "Binding": {
+                  "ConceptualEntity": "dim_Report_Hierarchy"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_report_hierarchy.fin_report_level_1"
+                      },
+                      "Subject": {
+                        "Role": "dim_report_hierarchy"
+                      }
+                    },
+                    "ID": "dim_report_hierarchies_have_fin_report_level_1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_report_hierarchy": {
+                    "Target": {
+                      "Entity": "dim_report_hierarchy"
+                    }
+                  },
+                  "dim_report_hierarchy.fin_report_level_1": {
+                    "Target": {
+                      "Entity": "dim_report_hierarchy.fin_report_level_1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_report_hierarchy_has_fin_report_level_2": {
+                "Binding": {
+                  "ConceptualEntity": "dim_Report_Hierarchy"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_report_hierarchy.fin_report_level_2"
+                      },
+                      "Subject": {
+                        "Role": "dim_report_hierarchy"
+                      }
+                    },
+                    "ID": "dim_report_hierarchies_have_fin_report_level_2",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_report_hierarchy": {
+                    "Target": {
+                      "Entity": "dim_report_hierarchy"
+                    }
+                  },
+                  "dim_report_hierarchy.fin_report_level_2": {
+                    "Target": {
+                      "Entity": "dim_report_hierarchy.fin_report_level_2"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_report_hierarchy_has_fin_report_level_3": {
+                "Binding": {
+                  "ConceptualEntity": "dim_Report_Hierarchy"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_report_hierarchy.fin_report_level_3"
+                      },
+                      "Subject": {
+                        "Role": "dim_report_hierarchy"
+                      }
+                    },
+                    "ID": "dim_report_hierarchies_have_fin_report_level_3",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_report_hierarchy": {
+                    "Target": {
+                      "Entity": "dim_report_hierarchy"
+                    }
+                  },
+                  "dim_report_hierarchy.fin_report_level_3": {
+                    "Target": {
+                      "Entity": "dim_report_hierarchy.fin_report_level_3"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_report_hierarchy_has_reporting_hierarchy": {
+                "Binding": {
+                  "ConceptualEntity": "dim_Report_Hierarchy"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_report_hierarchy.reporting_hierarchy"
+                      },
+                      "Subject": {
+                        "Role": "dim_report_hierarchy"
+                      }
+                    },
+                    "ID": "dim_report_hierarchies_have_reporting_hierarchies",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_report_hierarchy": {
+                    "Target": {
+                      "Entity": "dim_report_hierarchy"
+                    }
+                  },
+                  "dim_report_hierarchy.reporting_hierarchy": {
+                    "Target": {
+                      "Entity": "dim_report_hierarchy.reporting_hierarchy"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_report_hierarchy_has_reporting_hierarchy_key": {
+                "Binding": {
+                  "ConceptualEntity": "dim_Report_Hierarchy"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_report_hierarchy.reporting_hierarchy_key"
+                      },
+                      "Subject": {
+                        "Role": "dim_report_hierarchy"
+                      }
+                    },
+                    "ID": "dim_report_hierarchies_have_reporting_hierarchy_keys",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_report_hierarchy": {
+                    "Target": {
+                      "Entity": "dim_report_hierarchy"
+                    }
+                  },
+                  "dim_report_hierarchy.reporting_hierarchy_key": {
+                    "Target": {
+                      "Entity": "dim_report_hierarchy.reporting_hierarchy_key"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_report_hierarchy_has_sort_position": {
+                "Binding": {
+                  "ConceptualEntity": "dim_Report_Hierarchy"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_report_hierarchy.sort_position"
+                      },
+                      "Subject": {
+                        "Role": "dim_report_hierarchy"
+                      }
+                    },
+                    "ID": "dim_report_hierarchies_have_sort_positions",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_report_hierarchy": {
+                    "Target": {
+                      "Entity": "dim_report_hierarchy"
+                    }
+                  },
+                  "dim_report_hierarchy.sort_position": {
+                    "Target": {
+                      "Entity": "dim_report_hierarchy.sort_position"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_reporting_bridge_has_dim_natural_account": {
+                "Binding": {
+                  "ConceptualEntity": "dim_reporting_bridge"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_natural_account"
+                      },
+                      "Subject": {
+                        "Role": "dim_reporting_bridge"
+                      }
+                    },
+                    "ID": "dim_reporting_bridges_have_dim_natural_accounts",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_reporting_bridge"
+                      },
+                      "Subject": {
+                        "Role": "dim_natural_account"
+                      }
+                    },
+                    "ID": "dim_natural_accounts_have_dim_reporting_bridges",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_natural_account": {
+                    "Target": {
+                      "Entity": "dim_natural_account"
+                    }
+                  },
+                  "dim_reporting_bridge": {
+                    "Target": {
+                      "Entity": "dim_reporting_bridge"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_reporting_bridge_has_dim_report_hierarchy": {
+                "Binding": {
+                  "ConceptualEntity": "dim_reporting_bridge"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_report_hierarchy"
+                      },
+                      "Subject": {
+                        "Role": "dim_reporting_bridge"
+                      }
+                    },
+                    "ID": "dim_reporting_bridges_have_dim_report_hierarchies",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_reporting_bridge"
+                      },
+                      "Subject": {
+                        "Role": "dim_report_hierarchy"
+                      }
+                    },
+                    "ID": "dim_report_hierarchies_have_dim_reporting_bridges",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_report_hierarchy": {
+                    "Target": {
+                      "Entity": "dim_report_hierarchy"
+                    }
+                  },
+                  "dim_reporting_bridge": {
+                    "Target": {
+                      "Entity": "dim_reporting_bridge"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_GL_has_GL_dollar_amount": {
+                "Binding": {
+                  "ConceptualEntity": "fact_GL"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_GL.GL_dollar_amount"
+                      },
+                      "Subject": {
+                        "Role": "fact_GL"
+                      }
+                    },
+                    "ID": "fact_GL_have_GL_dollar_amounts",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_GL": {
+                    "Target": {
+                      "Entity": "fact_GL"
+                    }
+                  },
+                  "fact_GL.GL_dollar_amount": {
+                    "Target": {
+                      "Entity": "fact_GL.GL_dollar_amount"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_GL_has_GL_transaction_count": {
+                "Binding": {
+                  "ConceptualEntity": "fact_GL"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_GL.GL_transaction_count"
+                      },
+                      "Subject": {
+                        "Role": "fact_GL"
+                      }
+                    },
+                    "ID": "fact_GL_have_GL_transaction_counts",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_GL": {
+                    "Target": {
+                      "Entity": "fact_GL"
+                    }
+                  },
+                  "fact_GL.GL_transaction_count": {
+                    "Target": {
+                      "Entity": "fact_GL.GL_transaction_count"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_GL_has_dim_natural_account": {
+                "Binding": {
+                  "ConceptualEntity": "fact_GL"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_natural_account"
+                      },
+                      "Subject": {
+                        "Role": "fact_GL"
+                      }
+                    },
+                    "ID": "fact_GL_have_dim_natural_accounts",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_GL"
+                      },
+                      "Subject": {
+                        "Role": "dim_natural_account"
+                      }
+                    },
+                    "ID": "dim_natural_accounts_have_fact_GL",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_natural_account": {
+                    "Target": {
+                      "Entity": "dim_natural_account"
+                    }
+                  },
+                  "fact_GL": {
+                    "Target": {
+                      "Entity": "fact_GL"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_GL_has_fact_key": {
+                "Binding": {
+                  "ConceptualEntity": "fact_GL"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_GL.fact_key"
+                      },
+                      "Subject": {
+                        "Role": "fact_GL"
+                      }
+                    },
+                    "ID": "fact_GL_have_fact_keys",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_GL": {
+                    "Target": {
+                      "Entity": "fact_GL"
+                    }
+                  },
+                  "fact_GL.fact_key": {
+                    "Target": {
+                      "Entity": "fact_GL.fact_key"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_GL_has_transaction_date_key": {
+                "Binding": {
+                  "ConceptualEntity": "fact_GL"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_GL.transaction_date_key"
+                      },
+                      "Subject": {
+                        "Role": "fact_GL"
+                      }
+                    },
+                    "ID": "fact_GL_have_transaction_date_keys",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_GL": {
+                    "Target": {
+                      "Entity": "fact_GL"
+                    }
+                  },
+                  "fact_GL.transaction_date_key": {
+                    "Target": {
+                      "Entity": "fact_GL.transaction_date_key"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "AutoDetected_8b385d20-e0b4-4517-9aa1-4664210658c0",
+        "crossFilteringBehavior": "bothDirections",
+        "fromColumn": "natural_account_key",
+        "fromTable": "dim_reporting_bridge",
+        "toColumn": "Natural_Account_Key",
+        "toTable": "dim_Natural_Account"
+      },
+      {
+        "name": "AutoDetected_18035da8-9ee7-4514-99b6-2fa0927ece39",
+        "fromColumn": "Reporting_Hierarchy_Key",
+        "fromTable": "dim_reporting_bridge",
+        "toColumn": "Reporting_Hierarchy_Key",
+        "toTable": "dim_Report_Hierarchy"
+      },
+      {
+        "name": "638cf6da-91bc-65e4-948f-e4e8633f5752",
+        "fromColumn": "Natural_Account_Key",
+        "fromTable": "fact_GL",
+        "toColumn": "Natural_Account_Key",
+        "toTable": "dim_Natural_Account"
+      },
+      {
+        "name": "74ce35a5-0f9c-4915-f90b-ed4f77763175",
+        "fromColumn": "Reporting_Hierarchy_Key",
+        "fromTable": "dim_reporting_bridge",
+        "toColumn": "Reporting_Hierarchy_Key",
+        "toTable": "dim_Report_Hierarchy (2)"
+      },
+      {
+        "name": "72679484-a814-2aaf-f5a3-597429e582bb",
+        "fromColumn": "Reporting_Hierarchy_Key",
+        "fromTable": "dim_reporting_bridge",
+        "toColumn": "Reporting_Hierarchy_Key2",
+        "toTable": "dim_Report_Hierarchy2"
+      }
+    ],
+    "sourceQueryCulture": "en-NZ",
+    "tables": [
+      {
+        "name": "dim_Natural_Account",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Natural_Account_Key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "330cfaaf-a91c-4513-96ba-e1bc78c1af30",
+            "sourceColumn": "Natural_Account_Key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Natural_Account",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5265e505-11c1-4fcb-bc8d-45b919f604af",
+            "sourceColumn": "Natural_Account",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Account_Description",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e0b905dd-510c-4955-906b-2c283750a30e",
+            "sourceColumn": "Account_Description",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "f5a6bb9c-4653-4400-bc0b-55a612c210f6",
+        "partitions": [
+          {
+            "name": "dim_Natural_Account",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"svrbi2\", \"zz\"),",
+                "    dbo_dim_Natural_Account = Source{[Schema=\"dbo\",Item=\"dim_Natural_Account\"]}[Data]",
+                "in",
+                "    dbo_dim_Natural_Account"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_Report_Hierarchy",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Reporting_Hierarchy_Key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c68ac336-63c7-4d9b-b60e-701ad588d0ac",
+            "sourceColumn": "Reporting_Hierarchy_Key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sort_Position",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2b5f1ff8-66da-4cdd-9870-cc42a7b520ce",
+            "sourceColumn": "Sort_Position",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Reporting_Hierarchy",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6d0b8e74-57e6-4270-8c93-99e47e171449",
+            "sourceColumn": "Reporting_Hierarchy",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Fin_Report_Level1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b9c647ae-7425-4cc0-9311-2e05e4748aa2",
+            "sourceColumn": "Fin_Report_Level1",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Fin_Report_Level2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "52333406-5391-4fd5-9a84-d72d222e19e0",
+            "sourceColumn": "Fin_Report_Level2",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Fin_Report_Level3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "65e9e8d4-6b75-4c8c-bf71-cff0e5c1415a",
+            "sourceColumn": "Fin_Report_Level3",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "4e268794-cc92-40a0-a72b-390bd173ae0f",
+        "partitions": [
+          {
+            "name": "dim_Report_Hierarchy",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"svrbi2\", \"zz\"),",
+                "    dbo_dim_Report_Hierarchy = Source{[Schema=\"dbo\",Item=\"dim_Report_Hierarchy\"]}[Data]",
+                "in",
+                "    dbo_dim_Report_Hierarchy"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_reporting_bridge",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "natural_account_key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5d53aafb-7f2b-40bd-b7c7-f798ff0078c6",
+            "sourceColumn": "natural_account_key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Reporting_Hierarchy_Key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "36c808b8-721d-47e8-aa07-43ae5ddd974a",
+            "sourceColumn": "Reporting_Hierarchy_Key",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "c3e144dd-24ca-4e62-b9d2-da88e8cdc442",
+        "partitions": [
+          {
+            "name": "dim_reporting_bridge",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"svrbi2\", \"zz\"),",
+                "    dbo_dim_reporting_bridge = Source{[Schema=\"dbo\",Item=\"dim_reporting_bridge\"]}[Data]",
+                "in",
+                "    dbo_dim_reporting_bridge"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "fact_GL",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Fact_Key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "03058eb0-670c-4764-ae63-ce740a575d10",
+            "sourceColumn": "Fact_Key",
+            "summarizeBy": "count"
+          },
+          {
+            "name": "Natural_Account_Key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "70aeb0b1-4adf-49fc-9a22-21cd1a24dd50",
+            "sourceColumn": "Natural_Account_Key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Transaction_Date_Key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0ac02760-61a3-4231-a7fe-e4d041cb7f25",
+            "sourceColumn": "Transaction_Date_Key",
+            "summarizeBy": "count"
+          },
+          {
+            "name": "GL_Transaction_Count",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5879946d-08e7-433d-b797-a07d84941d01",
+            "sourceColumn": "GL_Transaction_Count",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "GL_Dollar_Amount",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "40d5b748-8ec6-4882-9aee-544939f0b951",
+            "sourceColumn": "GL_Dollar_Amount",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "974690fc-8320-4e4c-8337-8210ac142775",
+        "partitions": [
+          {
+            "name": "fact_GL",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"svrbi2\", \"zz\"),",
+                "    dbo_fact_GL = Source{[Schema=\"dbo\",Item=\"fact_GL\"]}[Data]",
+                "in",
+                "    dbo_fact_GL"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "CategoryMapping",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "707a4401dee14b8cb9f35f4552ab75e0"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Fin_Report_Level1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "5780253b-d002-460b-873b-f4e5730d2282",
+            "sourceColumn": "[Fin_Report_Level1]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Category_Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "c7c44972-58de-40a2-aaba-fb1f4ca40f73",
+            "sourceColumn": "[Category_Code]",
+            "summarizeBy": "count",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "c8bde32c-d039-4545-a697-c1743a6aa741",
+        "partitions": [
+          {
+            "name": "CategoryMapping",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "",
+                "DATATABLE (  ",
+                "    \"Fin_Report_Level1\", STRING,  ",
+                "    \"Category_Code\", INTEGER,  ",
+                "    {  ",
+                "        {\"Operating Cashflows\", 1},  ",
+                "        {\"Investing Cashflows\", 2}  ",
+                "    }  ",
+                ")  "
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_Report_Hierarchy (2)",
+        "columns": [
+          {
+            "name": "Reporting_Hierarchy_Key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2c0960cc-f887-46ae-9300-270334e7c096",
+            "sourceColumn": "Reporting_Hierarchy_Key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Fin_Report_Level1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b71443f5-fb0a-4b99-b256-96cbcd5c27aa",
+            "sourceColumn": "Fin_Report_Level1",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Fin_Report_Level2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "22690413-fef3-4bd6-a731-9bd4d6f7ec4f",
+            "sourceColumn": "Fin_Report_Level2",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Fin_Report_Level3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9e2ed4f1-945e-4bb3-95b0-2c9b84b015cc",
+            "sourceColumn": "Fin_Report_Level3",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Reporting_Hierarchy",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1a1e416a-a159-47d5-9185-942a00765500",
+            "sourceColumn": "Reporting_Hierarchy",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sort_Position",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "09a3bb13-9ed5-4cca-ac7a-17e7322fa181",
+            "sourceColumn": "Sort_Position",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sort_Position_2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c02fca48-4797-4b39-8f4c-a11f9f20d080",
+            "sourceColumn": "Sort_Position_2",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "9c2dad39-3da6-4aa7-82bb-67e1c9cd37ae",
+        "partitions": [
+          {
+            "name": "dim_Report_Hierarchy (2)",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"DESKTOP-7FS0KFP\", \"master\"),",
+                "    dbo_dim_Report_Hierarchy = Source{[Schema=\"dbo\",Item=\"dim_Report_Hierarchy\"]}[Data]",
+                "in",
+                "    dbo_dim_Report_Hierarchy"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_Report_Hierarchy2",
+        "columns": [
+          {
+            "name": "Reporting_Hierarchy_Key2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4ed7badf-e27f-4e06-a76d-21a5ca3aa364",
+            "sourceColumn": "Reporting_Hierarchy_Key2",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Fin_Report_Level1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d4e7585a-b457-4932-94f3-f4dea9a7308f",
+            "sourceColumn": "Fin_Report_Level1",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Fin_Report_Level2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7071a8b9-a3e6-4f39-b990-4df8293de8df",
+            "sourceColumn": "Fin_Report_Level2",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Fin_Report_Level3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b5c6703a-0bc7-4bf4-a6be-d759d7105875",
+            "sourceColumn": "Fin_Report_Level3",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Reporting_Hierarchy",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "482ac4cf-b154-4040-83aa-53422a718271",
+            "sourceColumn": "Reporting_Hierarchy",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sort_Position_level1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4466444a-1b59-4c99-9609-ec81d33960e8",
+            "sourceColumn": "Sort_Position_level1",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sort_Position_level2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "adfaeaad-9028-49ba-8821-a1bdc67825ef",
+            "sourceColumn": "Sort_Position_level2",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sort_Position_level3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "400740cf-b2b5-44f7-bde4-f91aa3773e8a",
+            "sourceColumn": "Sort_Position_level3",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "ada9a7ef-6003-4c7c-963a-41c55ca56282",
+        "partitions": [
+          {
+            "name": "dim_Report_Hierarchy2",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"DESKTOP-7FS0KFP\", \"master\"),",
+                "    dbo_dim_Report_Hierarchy2 = Source{[Schema=\"dbo\",Item=\"dim_Report_Hierarchy2\"]}[Data]",
+                "in",
+                "    dbo_dim_Report_Hierarchy2"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.60\",\"type\":2}},\"activeSectionIndex\":1,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Matrix Table",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "705a8dec136899e225c1",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"334d4adc5a61ede0bbba\",\"layouts\":[{\"id\":0,\"position\":{\"x\":25.753126699293095,\"y\":25.753126699293095,\"z\":0,\"width\":1254.246873300707,\"height\":145.47036432843936,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"dim_Report_Hierarchy.Fin_Report_Level1\",\"active\":true},{\"queryRef\":\"dim_Report_Hierarchy.Fin_Report_Level3\"},{\"queryRef\":\"dim_Report_Hierarchy.Sort_Position\"}],\"Columns\":[{\"queryRef\":\"dim_Report_Hierarchy.Fin_Report_Level2\",\"active\":true}],\"Values\":[{\"queryRef\":\"Sum(fact_GL.GL_Dollar_Amount)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d1\",\"Entity\":\"dim_Report_Hierarchy\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"fact_GL\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fin_Report_Level1\"},\"Name\":\"dim_Report_Hierarchy.Fin_Report_Level1\",\"NativeReferenceName\":\"Ind Cashflow 1\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fin_Report_Level2\"},\"Name\":\"dim_Report_Hierarchy.Fin_Report_Level2\",\"NativeReferenceName\":\"Fin_Report_Level2\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fin_Report_Level3\"},\"Name\":\"dim_Report_Hierarchy.Fin_Report_Level3\",\"NativeReferenceName\":\"Fin_Report_Level3\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Sort_Position\"},\"Name\":\"dim_Report_Hierarchy.Sort_Position\",\"NativeReferenceName\":\"Sort_Position\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"GL_Dollar_Amount\"}},\"Function\":0},\"Name\":\"Sum(fact_GL.GL_Dollar_Amount)\",\"NativeReferenceName\":\"Sum of GL_Dollar_Amount\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Sort_Position\"}}}]},\"expansionStates\":[{\"roles\":[\"Rows\"],\"levels\":[{\"queryRefs\":[\"dim_Report_Hierarchy.Fin_Report_Level1\"],\"isCollapsed\":true,\"isPinned\":true},{\"queryRefs\":[\"dim_Report_Hierarchy.Fin_Report_Level3\"],\"isCollapsed\":true,\"isPinned\":true},{\"queryRefs\":[\"dim_Report_Hierarchy.Sort_Position\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dim_Report_Hierarchy\"}},\"Property\":\"Sort_Position\"}}],\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"columnProperties\":{\"dim_Report_Hierarchy.Fin_Report_Level1\":{\"displayName\":\"Ind Cashflow 1\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 145.47,
+          "width": 1254.25,
+          "x": 25.75,
+          "y": 25.75,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"6c152a3e2cce7145d001\",\"layouts\":[{\"id\":0,\"position\":{\"x\":13.079053876058722,\"y\":439.45621023557305,\"z\":1000,\"width\":1006.4331957627187,\"height\":280.54570564145956,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"dim_Report_Hierarchy.Fin_Report_Level1\"},{\"queryRef\":\"dim_Report_Hierarchy.Fin_Report_Level2\"},{\"queryRef\":\"dim_Report_Hierarchy.Fin_Report_Level3\"},{\"queryRef\":\"dim_Report_Hierarchy.Sort_Position\"},{\"queryRef\":\"Sum(fact_GL.GL_Dollar_Amount)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fact_GL\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"dim_Report_Hierarchy\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Sort_Position\"},\"Name\":\"dim_Report_Hierarchy.Sort_Position\",\"NativeReferenceName\":\"Sort_Position\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"GL_Dollar_Amount\"}},\"Function\":0},\"Name\":\"Sum(fact_GL.GL_Dollar_Amount)\",\"NativeReferenceName\":\"Sum of GL_Dollar_Amount\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fin_Report_Level1\"},\"Name\":\"dim_Report_Hierarchy.Fin_Report_Level1\",\"NativeReferenceName\":\"Fin_Report_Level1\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fin_Report_Level2\"},\"Name\":\"dim_Report_Hierarchy.Fin_Report_Level2\",\"NativeReferenceName\":\"Fin_Report_Level2\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fin_Report_Level3\"},\"Name\":\"dim_Report_Hierarchy.Fin_Report_Level3\",\"NativeReferenceName\":\"Fin_Report_Level3\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Sort_Position\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{}}}",
+          "filters": "[]",
+          "height": 280.55,
+          "width": 1006.43,
+          "x": 13.08,
+          "y": 439.46,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"751cc061e122eabd0da0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":528.3937765927724,\"z\":3000,\"width\":1254.2812667140315,\"height\":191.6081392842603,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"dim_Report_Hierarchy.Sort_Position\",\"active\":true},{\"queryRef\":\"dim_Report_Hierarchy.Fin_Report_Level1\",\"active\":true},{\"queryRef\":\"dim_Report_Hierarchy.Fin_Report_Level3\"}],\"Columns\":[{\"queryRef\":\"dim_Report_Hierarchy.Fin_Report_Level2\",\"active\":true}],\"Values\":[{\"queryRef\":\"Sum(fact_GL.GL_Dollar_Amount)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d1\",\"Entity\":\"dim_Report_Hierarchy\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"fact_GL\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fin_Report_Level1\"},\"Name\":\"dim_Report_Hierarchy.Fin_Report_Level1\",\"NativeReferenceName\":\"Ind Cashflow 1\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fin_Report_Level2\"},\"Name\":\"dim_Report_Hierarchy.Fin_Report_Level2\",\"NativeReferenceName\":\"Fin_Report_Level2\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fin_Report_Level3\"},\"Name\":\"dim_Report_Hierarchy.Fin_Report_Level3\",\"NativeReferenceName\":\"Fin_Report_Level3\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Sort_Position\"},\"Name\":\"dim_Report_Hierarchy.Sort_Position\",\"NativeReferenceName\":\"Sort_Position\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"GL_Dollar_Amount\"}},\"Function\":0},\"Name\":\"Sum(fact_GL.GL_Dollar_Amount)\",\"NativeReferenceName\":\"Sum of GL_Dollar_Amount\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Sort_Position\"}}}]},\"expansionStates\":[{\"roles\":[\"Rows\"],\"levels\":[{\"queryRefs\":[\"dim_Report_Hierarchy.Sort_Position\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dim_Report_Hierarchy\"}},\"Property\":\"Sort_Position\"}}],\"isPinned\":true},{\"queryRefs\":[\"dim_Report_Hierarchy.Fin_Report_Level1\"],\"isCollapsed\":true,\"isPinned\":true},{\"queryRefs\":[\"dim_Report_Hierarchy.Fin_Report_Level3\"],\"isCollapsed\":true}],\"root\":{\"identityValues\":null,\"children\":[{\"identityValues\":[{\"Literal\":{\"Value\":\"1L\"}}],\"isToggled\":true},{\"identityValues\":[{\"Literal\":{\"Value\":\"2L\"}}],\"isToggled\":true}]}}],\"columnProperties\":{\"dim_Report_Hierarchy.Fin_Report_Level1\":{\"displayName\":\"Ind Cashflow 1\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 191.61,
+          "width": 1254.28,
+          "x": 0.00,
+          "y": 528.39,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"d50dfb070bd9ced95601\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1019.5162635529607,\"y\":438.7656380316931,\"width\":260.48373644703906,\"height\":280.767306088407,\"z\":2000,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"dim_Report_Hierarchy.Reporting_Hierarchy\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_Report_Hierarchy\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Reporting_Hierarchy\"},\"Name\":\"dim_Report_Hierarchy.Reporting_Hierarchy\",\"NativeReferenceName\":\"Reporting_Hierarchy\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_Report_Hierarchy\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Reporting_Hierarchy\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Ind Cashflow 1'\"}}]]}}}]}}}}]}}}",
+          "filters": "[]",
+          "height": 280.77,
+          "width": 260.48,
+          "x": 1019.52,
+          "y": 438.77,
+          "z": 2000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Normal Table",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "eef1960cd197859c9841",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"3713494a19e37c8caa08\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1019.5162635529607,\"y\":438.7656380316931,\"width\":260.48373644703906,\"height\":280.767306088407,\"z\":2000,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"dim_Report_Hierarchy.Reporting_Hierarchy\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_Report_Hierarchy\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Reporting_Hierarchy\"},\"Name\":\"dim_Report_Hierarchy.Reporting_Hierarchy\",\"NativeReferenceName\":\"Reporting_Hierarchy\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_Report_Hierarchy\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Reporting_Hierarchy\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Ind Cashflow 3'\"}}]]}}}]}}}}]}}}",
+          "filters": "[]",
+          "height": 280.77,
+          "width": 260.48,
+          "x": 1019.52,
+          "y": 438.77,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"5856d8007086be027608\",\"layouts\":[{\"id\":0,\"position\":{\"x\":25.62135112593828,\"y\":25.62135112593828,\"z\":0,\"width\":1254.3786488740616,\"height\":366.1718098415346,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"dim_Report_Hierarchy.Fin_Report_Level1\"},{\"queryRef\":\"dim_Report_Hierarchy.Fin_Report_Level2\"},{\"queryRef\":\"dim_Report_Hierarchy.Fin_Report_Level3\"},{\"queryRef\":\"dim_Report_Hierarchy.Sort_Position\"},{\"queryRef\":\"Sum(fact_GL.GL_Dollar_Amount)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d1\",\"Entity\":\"dim_Report_Hierarchy\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"fact_GL\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fin_Report_Level1\"},\"Name\":\"dim_Report_Hierarchy.Fin_Report_Level1\",\"NativeReferenceName\":\"Ind Cashflow 1\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Sort_Position\"},\"Name\":\"dim_Report_Hierarchy.Sort_Position\",\"NativeReferenceName\":\"Sort_Position\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"GL_Dollar_Amount\"}},\"Function\":0},\"Name\":\"Sum(fact_GL.GL_Dollar_Amount)\",\"NativeReferenceName\":\"Sum of GL_Dollar_Amount\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fin_Report_Level2\"},\"Name\":\"dim_Report_Hierarchy.Fin_Report_Level2\",\"NativeReferenceName\":\"Fin_Report_Level2\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fin_Report_Level3\"},\"Name\":\"dim_Report_Hierarchy.Fin_Report_Level3\",\"NativeReferenceName\":\"Fin_Report_Level3\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Sort_Position\"}}}]},\"columnProperties\":{\"dim_Report_Hierarchy.Fin_Report_Level1\":{\"displayName\":\"Ind Cashflow 1\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 366.17,
+          "width": 1254.38,
+          "x": 25.62,
+          "y": 25.62,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"fa36c4fe22e1dd4168c1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12.81067556296914,\"y\":438.7656380316931,\"z\":1000,\"width\":1006.7055879899916,\"height\":280.767306088407,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"dim_Report_Hierarchy.Fin_Report_Level1\"},{\"queryRef\":\"dim_Report_Hierarchy.Fin_Report_Level2\"},{\"queryRef\":\"dim_Report_Hierarchy.Fin_Report_Level3\"},{\"queryRef\":\"dim_Report_Hierarchy.Sort_Position\"},{\"queryRef\":\"Sum(fact_GL.GL_Dollar_Amount)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fact_GL\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"dim_Report_Hierarchy\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Sort_Position\"},\"Name\":\"dim_Report_Hierarchy.Sort_Position\",\"NativeReferenceName\":\"Sort_Position\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"GL_Dollar_Amount\"}},\"Function\":0},\"Name\":\"Sum(fact_GL.GL_Dollar_Amount)\",\"NativeReferenceName\":\"Sum of GL_Dollar_Amount\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fin_Report_Level1\"},\"Name\":\"dim_Report_Hierarchy.Fin_Report_Level1\",\"NativeReferenceName\":\"Fin_Report_Level1\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fin_Report_Level2\"},\"Name\":\"dim_Report_Hierarchy.Fin_Report_Level2\",\"NativeReferenceName\":\"Fin_Report_Level2\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fin_Report_Level3\"},\"Name\":\"dim_Report_Hierarchy.Fin_Report_Level3\",\"NativeReferenceName\":\"Fin_Report_Level3\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Sort_Position\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{}}}",
+          "filters": "[]",
+          "height": 280.77,
+          "width": 1006.71,
+          "x": 12.81,
+          "y": 438.77,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

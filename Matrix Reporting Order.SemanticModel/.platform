@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Matrix Reporting Order"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "3eccb579-a6ef-4986-ac2f-b6fedc68ec00"
+  }
+}
